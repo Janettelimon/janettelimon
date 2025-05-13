@@ -1,55 +1,75 @@
 ---
-title: "Résumé"
+title: "Janette Limon Résumé"
+format: html
 ---
 
-```{r knit-resume, echo=FALSE, message=FALSE}
-rmarkdown::render(
-  "resume/Resume.Rmd",
-  output_format = "pdf_document",
-  output_file   = "Resume.pdf",
-  output_dir    = "resume",
-  quiet         = TRUE
-)
-```
-
-You can view a PDF version of my résumé [here](resume/Resume.pdf).
+You can view a PDF version of my résumé [here](resume1/Janette%20Limon's%20Resume.pdf).
 
 # Professional Summary
 
-Results-oriented marketing and analytics professional with a strong foundation in data analysis, digital strategy, and performance reporting. Skilled in leveraging analytics tools and programming languages to uncover insights and support decision-making across cross-functional teams.
+Bilingual digital marketing professional with a strong foundation in media coordination, nonprofit communications, and data-driven outreach. Skilled in creating impactful marketing strategies, coordinating cross-departmental brand alignment, and delivering engaging campaigns across digital platforms. Known for managing complex projects and building meaningful community engagement through strategic messaging and storytelling.
 
 # Technical Skills
 
-- **Programming Languages:** R, Python, SQL, etc.  
-- **Web Technologies:** HTML, CSS/SCSS, JavaScript, Quarto, CMS Platforms, Analytics Tools
+- **Digital Marketing Tools:** Adobe Creative Cloud, Canva, Constant Contact, Mailchimp  
+- **Web & CMS:** WordPress, Weebly, Google Analytics, HTML (basic), Quarto  
+- **Languages & Communication:** Fluent in Spanish (written and verbal)  
+- **Productivity Tools:** Microsoft Office (Word, Excel, Publisher, PowerPoint), social media schedulers
 
 # Education
 
-| Degree                             | Year                          | College / Department                 | Institution         |
-| ---------------------------------- | ----------------------------- | ------------------------------------ | ------------------- |
-| [Your Degree]                     | [Start – Graduation Year]     | [Your College or Department]        | [Your University]   |
-| [Previous Degree or Certification] | [Start – End Year]            | [Your College or Department]        | [Your University]   |
+| Degree                                       | Year           | College / Department | Institution                                |
+|---------------------------------------------|----------------|-----------------------|--------------------------------------------|
+| Master of Science, Digital Marketing         | In Progress    | College of Business   | Cal Poly Pomona                            |
+| Bachelor of Science, Communication (PR)      | 2013 – 2017    | Letters, Arts, and Social Sciences | Cal Poly Pomona                  |
+| Associate Degree, Communication              | Graduated 2014 | Communications        | San Bernardino Valley College              |
 
 # Work Experience
 
-### [Job Title], [Company or Organization]  
-*[Start Date – End Date]*
+## Media & Marketing Coordinator, Reach Out  
+*July 2024 – Present*
 
-- [Responsibility or accomplishment #1]  
-- [Responsibility or accomplishment #2]  
-- [Responsibility or accomplishment #3]  
-- [Technical tools, collaboration, or outcomes]  
-- [Any metrics, impacts, or stakeholder involvement]
+- Lead digital marketing and social media efforts for multiple nonprofit programs  
+- Manage event promotion for conferences and cultural campaigns like NICC and Día de los Muertos  
+- Coordinate cross-department branding and ensure consistency across materials  
+- Maintain the organization’s website and visual content systems  
+
+---
+
+## Media & Marketing Specialist II, Reach Out  
+*Dec 2021 – July 2024*
+
+- Designed outreach content for coalitions and public health campaigns  
+- Supported video and photo content at events  
+- Translated materials into Spanish to increase accessibility  
+- Provided internal staff training on communications  
 
 ---
 
-### [Job Title], [Company or Organization]  
-*[Start Date – End Date]*
+## Press Assistant, U.S. House of Representatives  
+*July 2021 – Dec 2021*
 
-- [Responsibility or accomplishment #1]  
-- [Responsibility or accomplishment #2]  
-- [Team leadership, training, or development]  
-- [Projects involving marketing, data, or web technologies]  
-- [Toolset used or strategies implemented]
+- Drafted press releases, social posts, and speeches  
+- Managed media relations and press logistics  
+- Translated all official materials to Spanish  
+- Edited visual content for public distribution  
 
 ---
+
+## Field Representative, U.S. House of Representatives  
+*Aug 2020 – Dec 2021*
+
+- Acted as liaison between local communities and the Congresswoman  
+- Led outreach events and responded to constituent needs  
+- Coordinated legislative updates and presentations  
+- Connected stakeholders to federal resources  
+
+---
+
+## Director of Operations, Ontario Chamber of Commerce  
+*June 2018 – April 2020*
+
+- Managed event logistics and business engagement  
+- Supervised interns and led promotional outreach  
+- Designed weekly newsletters and social media content  
+- Maintained membership records and fundraising support  

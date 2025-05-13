@@ -1,26 +1,25 @@
 ---
-title: "Hi, I'm [Your Name Here]"
+title: "Hi, I'm Janette Limon"
 ---
 
 
 ::: {.columns}
 ::: {.column width="30%"}
-![](https://placehold.co/530x530?text=images/headshot.jpg){width=100% style="border-radius: 50%;"}
+![](images/headshot.jpg){width=100% style="border-radius: 50%;"}
 :::
 ::: {.column width="70%" style="padding-left: 3rem;"}
-I'm a [your profession or area of focus]. I specialize in transforming complex information into clear, engaging, and actionable insights.
+Hi, I’m Janette Limon—a bilingual digital marketing professional with a passion for driving community impact through storytelling, data, and strategy. With experience spanning nonprofit outreach, government communications, and brand development, I specialize in connecting audiences with meaningful messages that move them to action.
 :::
 :::
 
-## About Me
+## Personal Statement
 
-I hold a <span class="highlight">[Your Degree or Current Program]</span> from [Your Institution].
-
+I believe that marketing is more than a campaign—it’s a vehicle for change. Whether it’s a health equity initiative, a conference that sparks collaboration, or a youth-focused awareness campaign, I’m driven by the power of strategy and data to uplift underserved voices and shape better futures. My goal is to merge creativity and analytics to build campaigns that not only perform—but make a difference.
 
 
 ## Let's Connect
 
-You can [email me](mailto:you@example.com) or connect on [LinkedIn](https://www.linkedin.com/in/your-profile).
+You can [email me](mailto:janette.limon@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/janettelimon993).
 
 ---
 

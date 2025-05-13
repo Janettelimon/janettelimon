@@ -1,0 +1,71 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.11)  11 MAY 2025 21:16
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Resume.tex
+(./Resume.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-04-14>
+(/Users/janettelimon/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/Users/janettelimon/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count272
+\c@section=\count273
+\c@subsection=\count274
+\c@subsubsection=\count275
+\c@paragraph=\count276
+\c@subparagraph=\count277
+\c@figure=\count278
+\c@table=\count279
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen146
+) (/Users/janettelimon/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (/Users/janettelimon/Library/TinyTeX/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+(/Users/janettelimon/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count280
+\calc@Bcount=\count281
+\calc@Adimen=\dimen147
+\calc@Bdimen=\dimen148
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count282
+\calc@Cskip=\skip53
+) (/Users/janettelimon/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (/Users/janettelimon/Library/TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))
+
+! LaTeX Error: File `raleway.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.57 ^^M
+        
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 498 strings out of 471589
+ 7663 string characters out of 5519581
+ 424183 words of memory out of 5000000
+ 27149 multiletter control sequences out of 15000+600000
+ 626825 words of font info for 40 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 42i,0n,51p,158b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

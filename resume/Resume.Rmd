@@ -1,89 +1,57 @@
 ---
-name: First
-surname: Last
-position: "Your Role or Career Focus"
-phone: +1 (XXX) XXX-XXXX
-www: yourwebsite.com
-email: "you@example.com"
-github: your-github
-linkedin: your-linkedin
+name: Janette
+surname: Limon
+position: "Media & Marketing Coordinator | Digital Strategy"
+phone: "+1 (909) 955-7878"
+email: "janette.limon@gmail.com"
+www: "janettelimon.com"
+linkedin: "janette-limon"
+github: "janette-limon"
 date: "`r format(Sys.time(), '%B %Y')`"
-output: 
+output:
   vitae::latexcv:
     theme: classic
-header-includes:
-   - \usepackage{enumitem}
-   - \setlist[itemize]{nosep, left=0pt}
-   - \setlist[enumerate]{nosep, left=0pt}
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-
-if (!requireNamespace(c("tinytex","vitae","tibble"), quietly = TRUE)) {
-  install.packages(c("tinytex","vitae","tibble"))
-}
-
-if (Sys.which("pdflatex") == "" && !tinytex::is_tinytex()) {                    
-  message("► TinyTeX not found – installing")
-  tinytex::install_tinytex()        
-} else {
-  message("✓ LaTeX present – no installation needed.")
-}
-
 library(vitae)
 library(tibble)
 ```
 
-# Professional Summary
-
-Motivated and detail-oriented marketing and analytics professional with a strong background in data interpretation, campaign strategy, and digital tools. Skilled in turning insights into action and communicating value across business teams.
-
-# Technical Skills
-
-- **Programming Languages:** R, Python, SQL, etc.  
-- **Web Technologies:** HTML, CSS/SCSS, Quarto, CMS, Google Analytics, etc.
-
-# Education
+## Education
 
 ```{r}
 tribble(
-  ~ Degree, ~ Year, ~ College, ~ Institution,
-  "Master of [Your Field]", "20XX – Expected Graduation 20XX", "[Your School or Department]", "[Your University]",
-  "Bachelor of [Your Field]", "20XX – 20XX", "[Your School or Department]", "[Your University]"
+  ~Degree, ~Year, ~College, ~Institution,
+  "Master of Science, Digital Marketing", "In Progress", "", "Cal Poly Pomona",
+  "Bachelor of Science, Communication (PR)", "2013 – 2017", "", "Cal Poly Pomona",
+  "Associate Degree, Communication", "2014", "", "San Bernardino Valley College"
 ) %>%
   detailed_entries(Degree, Year, College, Institution)
 ```
 
-# Work Experience
+## Work Experience
 
 ```{r}
 tribble(
-  ~ Years, ~ Company, ~ Duties, ~ Title,
+  ~Years, ~Company, ~Duties, ~Title,
 
-  "Month YYYY – Month YYYY", "Company or Organization Name",
+  "July 2024 – Present", "Reach Out",
   list(
-    "Summarize responsibility or achievement \\#1.",
-    "Highlight tools, technologies, or methods used.",
-    "Mention metrics, goals, or impact if possible.",
-    "Add communication or leadership responsibilities here."
+    "Lead social media strategy and digital marketing campaigns.",
+    "Coordinate brand consistency across all departments.",
+    "Promote conferences like NICC and Día de los Muertos.",
+    "Oversee website content and creative material development."
   ),
-  "Job Title",
+  "Media & Marketing Coordinator",
 
-  "Month YYYY – Month YYYY", "Another Company or Team",
+  "Dec 2021 – July 2024", "Reach Out",
   list(
-    "Led a project or team focused on [insert focus].",
-    "Collaborated cross-functionally with [departments/roles].",
-    "Managed content, campaigns, or dashboards.",
-    "Contributed to strategic planning or reporting."
+    "Created bilingual content for public health campaigns.",
+    "Designed flyers, videos, and promotional graphics.",
+    "Supported coalition engagement through social channels."
   ),
-  "Job Title"
-
+  "Media & Marketing Specialist II"
 ) %>%
-  detailed_entries(
-    what = Title,
-    when = Years,
-    with = Company,
-    why = Duties
-  )
+  detailed_entries(what = Title, when = Years, with = Company, why = Duties)
 ```

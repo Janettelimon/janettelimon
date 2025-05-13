@@ -1,0 +1,57 @@
+---
+name: "Janette Limon"
+output:
+  pagedown::html_resume:
+    self_contained: true
+    css: "default"
+---
+
+# Summary
+
+Bilingual digital marketing professional with a strong foundation in media coordination, nonprofit communications, and data-driven outreach. Skilled in managing cross-functional marketing campaigns and creating impactful bilingual content for diverse audiences.
+
+# Contact
+
+- 📧 janette.limon@gmail.com  
+- 📱 (909) 955-7878  
+- 🌐 janettelimon.com  
+- 🏠 Rialto, CA
+
+# Education
+
+**M.S. in Digital Marketing**, Cal Poly Pomona (In Progress)  
+**B.S. in Communication (Public Relations)**, Cal Poly Pomona, 2017  
+**A.A. in Communication**, San Bernardino Valley College, 2014
+
+# Experience
+
+## Media & Marketing Coordinator, Reach Out  
+*Jul 2024 – Present*  
+- Lead digital campaigns for health equity, youth engagement, and community events  
+- Manage brand alignment across departments and design all outreach materials  
+- Promote major conferences like NICC and Día de los Muertos
+
+## Media & Marketing Specialist II, Reach Out  
+*Dec 2021 – Jul 2024*  
+- Designed social media content and translated bilingual materials  
+- Boosted engagement for harm reduction, youth coalitions, and mental health campaigns  
+
+## Press Assistant, U.S. House of Representatives  
+*Jul 2021 – Dec 2021*  
+- Drafted speeches, press releases, and managed digital content for the office  
+- Handled media inquiries and designed social graphics
+
+## Field Representative, U.S. House of Representatives  
+*Aug 2020 – Dec 2021*  
+- Liaised with local leaders, hosted town halls, and resolved constituent issues  
+
+## Director of Operations, Ontario Chamber of Commerce  
+*Jun 2018 – Apr 2020*  
+- Coordinated events, member engagement, and all internal communications  
+- Created weekly newsletters, managed website, and led intern training
+
+# Skills
+
+- Adobe Creative Cloud, Canva, WordPress, Mailchimp  
+- Google Analytics, Constant Contact, Quarto  
+- Fluent in Spanish (written and verbal)

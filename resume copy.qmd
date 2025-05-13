@@ -1,0 +1,40 @@
+---
+title: "Résumé"
+format: html
+---
+
+You can download a PDF version of my résumé [here](resume/Resume.pdf).
+
+# Professional Summary
+
+Bilingual digital marketing professional with a strong foundation in media coordination, nonprofit communications, and data-driven outreach. Skilled in creating impactful marketing strategies, coordinating cross-departmental brand alignment, and delivering engaging campaigns across digital platforms.
+
+# Technical Skills
+
+- **Digital Tools:** Adobe Creative Cloud, Canva, WordPress, Constant Contact  
+- **Analytics & Web:** Google Analytics, HTML, Quarto  
+- **Languages:** Fluent in Spanish (written and spoken)
+
+# Education
+
+| Degree                                       | Year           | Institution                          |
+|---------------------------------------------|----------------|--------------------------------------|
+| Master of Science, Digital Marketing         | In Progress    | Cal Poly Pomona                      |
+| Bachelor of Science, Communication (PR)      | 2013 – 2017    | Cal Poly Pomona                      |
+| Associate Degree, Communication              | 2014           | San Bernardino Valley College        |
+
+# Work Experience
+
+## Media & Marketing Coordinator, Reach Out  
+*July 2024 – Present*
+
+- Lead digital marketing campaigns and cross-departmental branding  
+- Promote major community events and health equity campaigns  
+- Maintain and optimize website content  
+
+## Media & Marketing Specialist II, Reach Out  
+*Dec 2021 – July 2024*
+
+- Created bilingual materials and visuals for public health campaigns  
+- Managed event media support and staff trainings  
+- Boosted social media engagement through strategy  

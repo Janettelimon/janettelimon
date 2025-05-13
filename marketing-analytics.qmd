@@ -8,15 +8,16 @@ listing:
     - "index desc"
 ---
 
-Below are selected projects that highlight my experience applying marketing analytics to real-world challenges. These projects reflect my ability to combine statistical tools, campaign data, and strategic thinking to inform decisions and drive results.
+Below are selected projects that highlight my experience applying marketing analytics, strategy, and digital tools to real-world and academic challenges. These projects reflect my ability to blend data insights, community-focused storytelling, and creative execution to support outreach, engagement, and growth.
 
-Whether developing dashboards, analyzing campaign performance, or uncovering insights through SEO and web analytics, each project is rooted in turning complex marketing data into clear, actionable strategies.
+Whether developing digital campaigns, analyzing customer data, or proposing strategic initiatives, I approach each project with a balance of research, empathy, and results-driven thinking.
 
 ## What You’ll Find
 
-- **Campaign Performance Analysis:** Evaluating the effectiveness of digital marketing efforts using data.
-- **Data Visualization:** Turning raw datasets into intuitive dashboards and reports.
-- **Marketing Mix & Attribution:** Exploring how different channels contribute to success.
-- **Customer & Market Insights:** Using analytics to better understand user behavior and optimize experiences.
+- **Event Campaign Performance:** Strategic promotion and outreach for events like the National Innovative Communities Conference, Health Professions Conference, and Día de los Muertos in Jurupa Valley.
+- **School-Based Analytics Projects:** Marketing and data analysis initiatives completed at Cal Poly Pomona—including CRM proposals, digital platform research, and brand strategy.
+- **Digital Content Testing** Building and optimizing social media campaigns tailored to generate leads, increase registration, or raise community awareness
+- **Website Creation & UX Design:** Designing a branded cupcake e-commerce website from scratch using WordPress and Weebly.
+- **Student Engagement Research:** Academic insights into how platforms like Instagram and Discord shape the student experience through statistical analysis.
 
 ---

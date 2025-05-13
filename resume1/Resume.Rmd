@@ -1,0 +1,126 @@
+---
+name: Janette
+surname: Limon
+position: "Media & Marketing Coordinator"
+phone: +1 (909) 955-7878
+www: janettelimon.com
+email: "janette.limon@gmail.com"
+github: janette-limon
+linkedin: janette-limon
+date: "`r format(Sys.time(), '%B %Y')`"
+output:
+  vitae::latexcv:
+    theme: classic
+header-includes:
+   - \usepackage{enumitem}
+   - \setlist[itemize]{nosep, left=0pt}
+   - \setlist[enumerate]{nosep, left=0pt}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+tinytex::tlmgr("option repository https://mirror.ctan.org/systems/texlive/tlnet/2023")
+
+tinytex::tlmgr_install("ifmtarg")
+
+
+if (!requireNamespace(c("tinytex","vitae","tibble"), quietly = TRUE)) {
+  install.packages(c("tinytex","vitae","tibble"))
+}
+
+if (Sys.which("pdflatex") == "" && !tinytex::is_tinytex()) {                    
+  message("► TinyTeX not found – installing")
+  tinytex::install_tinytex()        
+} else {
+  message("✓ LaTeX present – no installation needed.")
+}
+
+library(vitae)
+library(tibble)
+
+```
+
+# Professional Summary
+
+Bilingual digital marketing professional with extensive experience in media coordination, social strategy, campaign design, and nonprofit communications. Known for executing impactful outreach strategies, creating bilingual content, and driving engagement through thoughtful storytelling. Strong cross-functional collaborator who bridges data and design to deliver results.
+
+# Technical Skills
+
+-   **Digital Tools:** Adobe Creative Cloud, Canva, WordPress, Constant Contact
+-   **Marketing & Web:** Social Media Strategy, SEO, Email Marketing, Google Analytics
+-   **Languages:** Fluent in Spanish (spoken and written)
+-   **Productivity:** Microsoft Office Suite (Word, Excel, Publisher, PowerPoint)
+
+# Education
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ College, ~ Institution,
+  "Master of Science, Digital Marketing", "Present", "", "California State Polytechnic University, Pomona",
+  "Bachelor of Science, Communication (Public Relations)", "2017", "", "California State Polytechnic University, Pomona",
+  "Associate Degree, Communication", "2014", "", "San Bernardino Valley College"
+) %>%
+  detailed_entries(Degree, Year, College, Institution)
+```
+
+# Work Experience
+
+```{r}
+tribble(
+  ~ Years, ~ Company, ~ Duties, ~ Title,
+
+  "July 2024 – Present", "Reach Out, Upland, CA",
+  list(
+    "Manage and schedule social media posts across Facebook, Instagram, and Twitter.",
+    "Coordinate content development for events and campaigns with internal teams.",
+    "Lead media presence at in-person and virtual events; handle content capture.",
+    "Oversee digital and print materials; ensure brand alignment and timely delivery.",
+    "Maintain and update organization website content in coordination with campaigns."
+  ),
+  "Media & Marketing Coordinator",
+
+  "Dec 2021 – July 2024", "Reach Out, Upland, CA",
+  list(
+    "Assisted in planning and executing all marketing and media outreach.",
+    "Created brand-consistent visuals and social content to increase engagement.",
+    "Supported annual events with design, content, and media logistics.",
+    "Trained staff in media best practices and translated materials to Spanish."
+  ),
+  "Media & Marketing Specialist II",
+
+  "July 2021 – Dec 2021", "U.S. House of Representatives, Ontario, CA",
+  list(
+    "Drafted social posts, press releases, and talking points for public appearances.",
+    "Managed the office’s website and all digital communications.",
+    "Handled media requests and edited graphics, photos, and videos.",
+    "Translated all communication into Spanish to reach diverse constituents."
+  ),
+  "Press Assistant",
+
+  "Aug 2020 – Dec 2021", "U.S. House of Representatives, Ontario, CA",
+  list(
+    "Served as a liaison between the Congresswoman and local stakeholders.",
+    "Organized community outreach, legislative presentations, and event support.",
+    "Monitored district issues and relayed updates to the Congresswoman.",
+    "Resolved constituent concerns by interfacing with federal agencies."
+  ),
+  "Field Representative",
+
+  "June 2018 – Apr 2020", "Ontario Chamber of Commerce, Ontario, CA",
+  list(
+    "Oversaw day-to-day operations and supervised interns.",
+    "Planned events and managed promotional outreach for business programs.",
+    "Created graphic content, newsletters, and maintained web updates.",
+    "Engaged in community outreach and coordinated sponsorships and fundraising."
+  ),
+  "Director of Operations"
+) %>%
+  detailed_entries(
+    what = Title,
+    when = Years,
+    with = Company,
+    why = Duties
+  )
+
+```
