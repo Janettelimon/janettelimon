@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hi, I’m [Your Name Here]",
+    "title": "Hi, I’m Janette Limon",
     "section": "",
-    "text": "I’m a [your profession or area of focus]. I specialize in transforming complex information into clear, engaging, and actionable insights."
+    "text": "Janette headshot\n\n\n\nHi, I’m Janette Limon — …\n::: ::: {.column width=“70%” style=“padding-left: 3rem;”} Hi, I’m Janette Limon—a bilingual digital marketing professional with a passion for driving community impact through storytelling, data, and strategy. With experience spanning nonprofit outreach, government communications, and brand development, I specialize in connecting audiences with meaningful messages that move them to action. ::: :::"
   },
   {
     "objectID": "index.html#about-me",
@@ -16,8 +16,134 @@
   {
     "objectID": "index.html#lets-connect",
     "href": "index.html#lets-connect",
-    "title": "Hi, I’m [Your Name Here]",
+    "title": "Hi, I’m Janette Limon",
     "section": "Let’s Connect",
     "text": "Let’s Connect\nYou can email me or connect on LinkedIn.\n\nWelcome to my portfolio."
+  },
+  {
+    "objectID": "index.html#personal-statement",
+    "href": "index.html#personal-statement",
+    "title": "Hi, I’m Janette Limon",
+    "section": "Personal Statement",
+    "text": "Personal Statement\nI believe that marketing is more than a campaign—it’s a vehicle for change. Whether it’s a health equity initiative, a conference that sparks collaboration, or a youth-focused awareness campaign, I’m driven by the power of strategy and data to uplift underserved voices and shape better futures. My goal is to merge creativity and analytics to build campaigns that not only perform—but make a difference."
+  },
+  {
+    "objectID": "marketing-analytics.html",
+    "href": "marketing-analytics.html",
+    "title": "Marketing Analytics",
+    "section": "",
+    "text": "Below are selected projects that highlight my experience applying marketing analytics, strategy, and digital tools to real-world and academic challenges. These projects reflect my ability to blend data insights, community-focused storytelling, and creative execution to support outreach, engagement, and growth.\nWhether developing digital campaigns, analyzing customer data, or proposing strategic initiatives, I approach each project with a balance of research, empathy, and results-driven thinking."
+  },
+  {
+    "objectID": "marketing-analytics.html#what-youll-find",
+    "href": "marketing-analytics.html#what-youll-find",
+    "title": "Marketing Analytics",
+    "section": "What You’ll Find",
+    "text": "What You’ll Find\n\nEvent Campaign Performance: Strategic promotion and outreach for events like the National Innovative Communities Conference, Health Professions Conference, and Día de los Muertos in Jurupa Valley.\nSchool-Based Analytics Projects: Marketing and data analysis initiatives completed at Cal Poly Pomona—including CRM proposals, digital platform research, and brand strategy.\nDigital Content Testing Building and optimizing social media campaigns tailored to generate leads, increase registration, or raise community awareness\nWebsite Creation & UX Design: Designing a branded cupcake e-commerce website from scratch using WordPress and Weebly.\nStudent Engagement Research: Academic insights into how platforms like Instagram and Discord shape the student experience through statistical analysis."
+  },
+  {
+    "objectID": "resume/Resume.html",
+    "href": "resume/Resume.html",
+    "title": "Janette Limon",
+    "section": "",
+    "text": "tribble(\n  ~Degree, ~Year, ~College, ~Institution,\n  \"Master of Science, Digital Marketing\", \"In Progress\", \"\", \"Cal Poly Pomona\",\n  \"Bachelor of Science, Communication (PR)\", \"2013 – 2017\", \"\", \"Cal Poly Pomona\",\n  \"Associate Degree, Communication\", \"2014\", \"\", \"San Bernardino Valley College\"\n) %&gt;%\n  detailed_entries(Degree, Year, College, Institution)\n\nWarning: Detailed entry formatter is not defined for this output format.\n\n\n# A tibble: 3 × 5\n  what                                    when        with  where          why  \n  &lt;chr&gt;                                   &lt;chr&gt;       &lt;chr&gt; &lt;chr&gt;          &lt;lis&gt;\n1 Master of Science, Digital Marketing    In Progress \"\"    Cal Poly Pomo… &lt;chr&gt;\n2 Bachelor of Science, Communication (PR) 2013 – 2017 \"\"    Cal Poly Pomo… &lt;chr&gt;\n3 Associate Degree, Communication         2014        \"\"    San Bernardin… &lt;chr&gt;"
+  },
+  {
+    "objectID": "resume/Resume.html#education",
+    "href": "resume/Resume.html#education",
+    "title": "Janette Limon",
+    "section": "",
+    "text": "tribble(\n  ~Degree, ~Year, ~College, ~Institution,\n  \"Master of Science, Digital Marketing\", \"In Progress\", \"\", \"Cal Poly Pomona\",\n  \"Bachelor of Science, Communication (PR)\", \"2013 – 2017\", \"\", \"Cal Poly Pomona\",\n  \"Associate Degree, Communication\", \"2014\", \"\", \"San Bernardino Valley College\"\n) %&gt;%\n  detailed_entries(Degree, Year, College, Institution)\n\nWarning: Detailed entry formatter is not defined for this output format.\n\n\n# A tibble: 3 × 5\n  what                                    when        with  where          why  \n  &lt;chr&gt;                                   &lt;chr&gt;       &lt;chr&gt; &lt;chr&gt;          &lt;lis&gt;\n1 Master of Science, Digital Marketing    In Progress \"\"    Cal Poly Pomo… &lt;chr&gt;\n2 Bachelor of Science, Communication (PR) 2013 – 2017 \"\"    Cal Poly Pomo… &lt;chr&gt;\n3 Associate Degree, Communication         2014        \"\"    San Bernardin… &lt;chr&gt;"
+  },
+  {
+    "objectID": "resume/Resume.html#work-experience",
+    "href": "resume/Resume.html#work-experience",
+    "title": "Janette Limon",
+    "section": "Work Experience",
+    "text": "Work Experience\n\ntribble(\n  ~Years, ~Company, ~Duties, ~Title,\n\n  \"July 2024 – Present\", \"Reach Out\",\n  list(\n    \"Lead social media strategy and digital marketing campaigns.\",\n    \"Coordinate brand consistency across all departments.\",\n    \"Promote conferences like NICC and Día de los Muertos.\",\n    \"Oversee website content and creative material development.\"\n  ),\n  \"Media & Marketing Coordinator\",\n\n  \"Dec 2021 – July 2024\", \"Reach Out\",\n  list(\n    \"Created bilingual content for public health campaigns.\",\n    \"Designed flyers, videos, and promotional graphics.\",\n    \"Supported coalition engagement through social channels.\"\n  ),\n  \"Media & Marketing Specialist II\"\n) %&gt;%\n  detailed_entries(what = Title, when = Years, with = Company, why = Duties)\n\nWarning: Detailed entry formatter is not defined for this output format.\n\n\n# A tibble: 2 × 5\n  what                            when                 with      where why   \n  &lt;chr&gt;                           &lt;chr&gt;                &lt;chr&gt;     &lt;chr&gt; &lt;list&gt;\n1 Media & Marketing Coordinator   July 2024 – Present  Reach Out &lt;NA&gt;  &lt;list&gt;\n2 Media & Marketing Specialist II Dec 2021 – July 2024 Reach Out &lt;NA&gt;  &lt;list&gt;"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Janette Limon Résumé",
+    "section": "",
+    "text": "You can view a PDF version of my résumé here."
+  },
+  {
+    "objectID": "resume.html#media-marketing-coordinator-reach-out",
+    "href": "resume.html#media-marketing-coordinator-reach-out",
+    "title": "Janette Limon Résumé",
+    "section": "Media & Marketing Coordinator, Reach Out",
+    "text": "Media & Marketing Coordinator, Reach Out\nJuly 2024 – Present\n\nLead digital marketing and social media efforts for multiple nonprofit programs\n\nManage event promotion for conferences and cultural campaigns like NICC and Día de los Muertos\n\nCoordinate cross-department branding and ensure consistency across materials\n\nMaintain the organization’s website and visual content systems"
+  },
+  {
+    "objectID": "resume.html#media-marketing-specialist-ii-reach-out",
+    "href": "resume.html#media-marketing-specialist-ii-reach-out",
+    "title": "Janette Limon Résumé",
+    "section": "Media & Marketing Specialist II, Reach Out",
+    "text": "Media & Marketing Specialist II, Reach Out\nDec 2021 – July 2024\n\nDesigned outreach content for coalitions and public health campaigns\n\nSupported video and photo content at events\n\nTranslated materials into Spanish to increase accessibility\n\nProvided internal staff training on communications"
+  },
+  {
+    "objectID": "resume.html#press-assistant-u.s.-house-of-representatives",
+    "href": "resume.html#press-assistant-u.s.-house-of-representatives",
+    "title": "Janette Limon Résumé",
+    "section": "Press Assistant, U.S. House of Representatives",
+    "text": "Press Assistant, U.S. House of Representatives\nJuly 2021 – Dec 2021\n\nDrafted press releases, social posts, and speeches\n\nManaged media relations and press logistics\n\nTranslated all official materials to Spanish\n\nEdited visual content for public distribution"
+  },
+  {
+    "objectID": "resume.html#field-representative-u.s.-house-of-representatives",
+    "href": "resume.html#field-representative-u.s.-house-of-representatives",
+    "title": "Janette Limon Résumé",
+    "section": "Field Representative, U.S. House of Representatives",
+    "text": "Field Representative, U.S. House of Representatives\nAug 2020 – Dec 2021\n\nActed as liaison between local communities and the Congresswoman\n\nLed outreach events and responded to constituent needs\n\nCoordinated legislative updates and presentations\n\nConnected stakeholders to federal resources"
+  },
+  {
+    "objectID": "resume.html#director-of-operations-ontario-chamber-of-commerce",
+    "href": "resume.html#director-of-operations-ontario-chamber-of-commerce",
+    "title": "Janette Limon Résumé",
+    "section": "Director of Operations, Ontario Chamber of Commerce",
+    "text": "Director of Operations, Ontario Chamber of Commerce\nJune 2018 – April 2020\n\nManaged event logistics and business engagement\n\nSupervised interns and led promotional outreach\n\nDesigned weekly newsletters and social media content\n\nMaintained membership records and fundraising support"
+  },
+  {
+    "objectID": "strategic-marketing.html",
+    "href": "strategic-marketing.html",
+    "title": "Strategic Marketing",
+    "section": "",
+    "text": "Below are selected projects that showcase my work in strategic marketing, cross-platform campaigns, and brand leadership. These examples highlight how I apply creative direction, organizational alignment, and data-informed decision-making to drive real-world results for both community-focused initiatives and student-led projects."
+  },
+  {
+    "objectID": "strategic-marketing.html#national-innovative-communities-conference-full-campaign-strategy",
+    "href": "strategic-marketing.html#national-innovative-communities-conference-full-campaign-strategy",
+    "title": "Strategic Marketing",
+    "section": "National Innovative Communities Conference – Full Campaign Strategy",
+    "text": "National Innovative Communities Conference – Full Campaign Strategy\nFor NICC, our region’s largest equity and innovation conference, I led the digital marketing campaign from pre-launch to post-event wrap-up. This included targeted social media strategy, sponsor messaging, speaker announcements, and content creation across multiple formats.\nSkills Demonstrated:\n\nMarketing Strategy: Created a comprehensive campaign aligned with registration goals and equity-focused messaging.\nTeam Coordination: Collaborated with speakers, sponsors, and internal teams.\nPerformance Tracking: Measured social engagement and tracked CongitoForms and Constant Contact registrations.\nBrand Positioning: Maintained cohesive visual identity and tone across all assets."
+  },
+  {
+    "objectID": "strategic-marketing.html#brand-alignment-across-departments-at-reach-out",
+    "href": "strategic-marketing.html#brand-alignment-across-departments-at-reach-out",
+    "title": "Strategic Marketing",
+    "section": "Brand Alignment Across Departments at Reach Out",
+    "text": "Brand Alignment Across Departments at Reach Out\nWorking cross-functionally with all departments, I oversee the consistency of our organization’s brand. From youth coalitions to public health initiatives, I ensure messaging is culturally relevant, visually aligned, and strategically tailored to meet outreach goals.\nSkills Demonstrated:\n\nBrand Governance: Maintained brand voice and visuals across 20+ programs.\nStrategic Communication: Adapted messaging to different community needs and grant deliverables.\nInternal Consulting: Advised staff on marketing best practices.\nDesign Oversight: Reviewed digital and print materials for consistency and impact."
+  },
+  {
+    "objectID": "strategic-marketing.html#día-de-los-muertos-jurupa-valley-event-promotion-plan",
+    "href": "strategic-marketing.html#día-de-los-muertos-jurupa-valley-event-promotion-plan",
+    "title": "Strategic Marketing",
+    "section": "Día de los Muertos Jurupa Valley – Event Promotion Plan",
+    "text": "Día de los Muertos Jurupa Valley – Event Promotion Plan\nAs the lead marketing contact for this cultural celebration, I crafted the outreach strategy to drive attendance and highlight local partnerships. The campaign emphasized cultural pride, community health, and family-friendly activities.\nSkills Demonstrated:\n\nCommunity Marketing: Designed messaging rooted in cultural relevance and inclusion.\nLead Generation: Boosted RSVPs through Facebook and Instagram campaigns.\nMultimedia Coordination: Produced flyers, schedules, and digital ads.\nEngagement Tracking: Analyzed reach, shares, and click-through rates."
+  },
+  {
+    "objectID": "strategic-marketing.html#sabor-a-limón-website-creation-brand-experience",
+    "href": "strategic-marketing.html#sabor-a-limón-website-creation-brand-experience",
+    "title": "Strategic Marketing",
+    "section": "Sabor a Limón – Website Creation & Brand Experience",
+    "text": "Sabor a Limón – Website Creation & Brand Experience\nFor a digital marketing course, I created a full website for Sabor a Limón, a gourmet cupcake brand concept. I began the site in WordPress, then transitioned to Weebly for more design flexibility. The goal was to create a seamless customer experience for browsing, ordering, and learning about the brand.\nSkills Demonstrated:\n\nWebsite Strategy: Designed a customer-friendly interface to drive orders.\nCMS Customization: Worked with both WordPress and Weebly platforms.\nUser Experience (UX): Embedded forms and structured content for smooth navigation.\nBrand Identity: Developed visuals and copy to reflect the business’s personality and voice."
+  },
+  {
+    "objectID": "strategic-marketing.html#cal-poly-pomona-farm-store-strategic-marketing-proposal",
+    "href": "strategic-marketing.html#cal-poly-pomona-farm-store-strategic-marketing-proposal",
+    "title": "Strategic Marketing",
+    "section": "Cal Poly Pomona Farm Store – Strategic Marketing Proposal",
+    "text": "Cal Poly Pomona Farm Store – Strategic Marketing Proposal\nIn this class project, I co-developed a strategy to increase visibility and revenue at the CPP Farm Store. Our proposal focused on hosting monthly community events, improving CRM practices, and forming partnerships with local vendors to enhance brand experience.\nSkills Demonstrated:\n\nStrategic Planning: Proposed event-based marketing to boost traffic and sales.\nCustomer Insights: Conducted customer preference research."
   }
 ]

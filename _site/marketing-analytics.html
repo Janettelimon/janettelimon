@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hi, I’m Janette Limon – Janette Limon</title>
+<title>Marketing Analytics – Janette Limon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +68,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -88,11 +148,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./marketing-analytics.html"> 
+    <a class="nav-link active" href="./marketing-analytics.html" aria-current="page"> 
 <span class="menu-text">Marketing Analytics</span></a>
   </li>  
   <li class="nav-item">
@@ -119,17 +179,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#personal-statement" id="toc-personal-statement" class="nav-link active" data-scroll-target="#personal-statement">Personal Statement</a></li>
-  <li><a href="#lets-connect" id="toc-lets-connect" class="nav-link" data-scroll-target="#lets-connect">Let’s Connect</a></li>
+  <li><a href="#what-youll-find" id="toc-what-youll-find" class="nav-link active" data-scroll-target="#what-youll-find">What You’ll Find</a></li>
   </ul>
 </nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hi, I’m Janette Limon</h1>
+<h1 class="title">Marketing Analytics</h1>
 </div>
 
 
@@ -146,33 +205,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="columns">
-<div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center" style="border-radius: 50%;">
-<figure class="figure">
-<p><img src="images/headshot.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Janette headshot</figcaption>
-</figure>
-</div>
-</div><div class="column" style="width:70%;">
-<p>Hi, I’m Janette Limon — …</p>
-</div>
-</div>
-<p>::: ::: {.column width=“70%” style=“padding-left: 3rem;”} Hi, I’m Janette Limon—a bilingual digital marketing professional with a passion for driving community impact through storytelling, data, and strategy. With experience spanning nonprofit outreach, government communications, and brand development, I specialize in connecting audiences with meaningful messages that move them to action. ::: :::</p>
-<section id="personal-statement" class="level2">
-<h2 class="anchored" data-anchor-id="personal-statement">Personal Statement</h2>
-<p>I believe that marketing is more than a campaign—it’s a vehicle for change. Whether it’s a health equity initiative, a conference that sparks collaboration, or a youth-focused awareness campaign, I’m driven by the power of strategy and data to uplift underserved voices and shape better futures. My goal is to merge creativity and analytics to build campaigns that not only perform—but make a difference.</p>
-</section>
-<section id="lets-connect" class="level2">
-<h2 class="anchored" data-anchor-id="lets-connect">Let’s Connect</h2>
-<p>You can <a href="mailto:janette.limon@gmail.com">email me</a> or connect on <a href="https://www.linkedin.com/in/janettelimon993">LinkedIn</a>.</p>
+<p>Below are selected projects that highlight my experience applying marketing analytics, strategy, and digital tools to real-world and academic challenges. These projects reflect my ability to blend data insights, community-focused storytelling, and creative execution to support outreach, engagement, and growth.</p>
+<p>Whether developing digital campaigns, analyzing customer data, or proposing strategic initiatives, I approach each project with a balance of research, empathy, and results-driven thinking.</p>
+<section id="what-youll-find" class="level2">
+<h2 class="anchored" data-anchor-id="what-youll-find">What You’ll Find</h2>
+<ul>
+<li><strong>Event Campaign Performance:</strong> Strategic promotion and outreach for events like the National Innovative Communities Conference, Health Professions Conference, and Día de los Muertos in Jurupa Valley.</li>
+<li><strong>School-Based Analytics Projects:</strong> Marketing and data analysis initiatives completed at Cal Poly Pomona—including CRM proposals, digital platform research, and brand strategy.</li>
+<li><strong>Digital Content Testing</strong> Building and optimizing social media campaigns tailored to generate leads, increase registration, or raise community awareness</li>
+<li><strong>Website Creation &amp; UX Design:</strong> Designing a branded cupcake e-commerce website from scratch using WordPress and Weebly.</li>
+<li><strong>Student Engagement Research:</strong> Academic insights into how platforms like Instagram and Discord shape the student experience through statistical analysis.</li>
+</ul>
 <hr>
-<p><em>Welcome to my portfolio.</em></p>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
