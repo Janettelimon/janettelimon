@@ -15,11 +15,13 @@ Hi, I’m Janette Limon—a bilingual digital marketing professional with a pass
 
 ## Personal Statement
 
-I believe that marketing is more than a campaign—it’s a vehicle for change. Whether it’s a health equity initiative, a conference that sparks collaboration, or a youth-focused awareness campaign, I’m driven by the power of strategy and data to uplift underserved voices and shape better futures. My goal is to merge creativity and analytics to build campaigns that not only perform—but make a difference.
+I believe marketing is more than a campaign—it's a vehicle for change. Whether it’s a health equity initiative, a conference that sparks collaboration, or a youth-focused awareness campaign, I’m driven by strategy and storytelling that uplift underserved voices and shape better futures.
 
-## Let's Connect
 
-You can [email me](mailto:janette.limon@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/janettelimon993).
+## Let’s Connect
+
+[Email Me](mailto:janette.limon@gmail.com){.btn .btn-outline-primary}
+[LinkedIn](https://www.linkedin.com/in/janettelimon993){.btn .btn-primary}
 
 ------------------------------------------------------------------------
 

@@ -4,7 +4,9 @@ title: "Strategic Marketing"
 
 Below are selected projects that showcase my work in strategic marketing, cross-platform campaigns, and brand leadership. These examples highlight how I apply creative direction, organizational alignment, and data-informed decision-making to drive real-world results for both community-focused initiatives and student-led projects.
 
-## National Innovative Communities Conference – Full Campaign Strategy
+<div class="card mb-4 p-4 shadow-sm border-0" style="background-color: #f9f9f9;">
+
+### National Innovative Communities Conference – Full Campaign Strategy
 
 For NICC, our region’s largest equity and innovation conference, I led the digital marketing campaign from pre-launch to post-event wrap-up. This included targeted social media strategy, sponsor messaging, speaker announcements, and content creation across multiple formats.
 
@@ -12,12 +14,14 @@ For NICC, our region’s largest equity and innovation conference, I led the dig
 
 - **Marketing Strategy:** Created a comprehensive campaign aligned with registration goals and equity-focused messaging.
 - **Team Coordination:** Collaborated with speakers, sponsors, and internal teams.
-- **Performance Tracking:** Measured social engagement and tracked CongitoForms and Constant Contact registrations.
+- **Performance Tracking:** Measured social engagement and tracked CognitoForms and Constant Contact registrations.
 - **Brand Positioning:** Maintained cohesive visual identity and tone across all assets.
 
----
+</div>
 
-## Brand Alignment Across Departments at Reach Out
+<div class="card mb-4 p-4 shadow-sm border-0" style="background-color: #f9f9f9;">
+
+### Brand Alignment Across Departments at Reach Out
 
 Working cross-functionally with all departments, I oversee the consistency of our organization’s brand. From youth coalitions to public health initiatives, I ensure messaging is culturally relevant, visually aligned, and strategically tailored to meet outreach goals.
 
@@ -28,9 +32,11 @@ Working cross-functionally with all departments, I oversee the consistency of ou
 - **Internal Consulting:** Advised staff on marketing best practices.
 - **Design Oversight:** Reviewed digital and print materials for consistency and impact.
 
----
+</div>
 
-## Día de los Muertos Jurupa Valley – Event Promotion Plan
+<div class="card mb-4 p-4 shadow-sm border-0" style="background-color: #f9f9f9;">
+
+### Día de los Muertos Jurupa Valley – Event Promotion Plan
 
 As the lead marketing contact for this cultural celebration, I crafted the outreach strategy to drive attendance and highlight local partnerships. The campaign emphasized cultural pride, community health, and family-friendly activities.
 
@@ -41,9 +47,11 @@ As the lead marketing contact for this cultural celebration, I crafted the outre
 - **Multimedia Coordination:** Produced flyers, schedules, and digital ads.
 - **Engagement Tracking:** Analyzed reach, shares, and click-through rates.
 
----
+</div>
 
-## Sabor a Limón – Website Creation & Brand Experience
+<div class="card mb-4 p-4 shadow-sm border-0" style="background-color: #f9f9f9;">
+
+### Sabor a Limón – Website Creation & Brand Experience
 
 For a digital marketing course, I created a full website for Sabor a Limón, a gourmet cupcake brand concept. I began the site in WordPress, then transitioned to Weebly for more design flexibility. The goal was to create a seamless customer experience for browsing, ordering, and learning about the brand.
 
@@ -54,9 +62,11 @@ For a digital marketing course, I created a full website for Sabor a Limón, a g
 - **User Experience (UX):** Embedded forms and structured content for smooth navigation.
 - **Brand Identity:** Developed visuals and copy to reflect the business’s personality and voice.
 
----
+</div>
 
-## Cal Poly Pomona Farm Store – Strategic Marketing Proposal
+<div class="card mb-4 p-4 shadow-sm border-0" style="background-color: #f9f9f9;">
+
+### Cal Poly Pomona Farm Store – Strategic Marketing Proposal
 
 In this class project, I co-developed a strategy to increase visibility and revenue at the CPP Farm Store. Our proposal focused on hosting monthly community events, improving CRM practices, and forming partnerships with local vendors to enhance brand experience.
 
@@ -64,3 +74,7 @@ In this class project, I co-developed a strategy to increase visibility and reve
 
 - **Strategic Planning:** Proposed event-based marketing to boost traffic and sales.
 - **Customer Insights:** Conducted customer preference research.
+- **Community Engagement:** Emphasized relationships with vendors and families.
+- **CRM Recommendations:** Outlined ways to optimize communications and retention.
+
+</div>
