@@ -14,9 +14,12 @@ website:
       - text: "Résumé"
         href: resume.qmd
 
-
 format:
   html:
     theme: [flatly, theme.scss]
     toc: true
 
+# Ensure these files are included in the published site
+resources:
+  - resume.pdf
+  - images/headshot.jpg
