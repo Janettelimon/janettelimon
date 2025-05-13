@@ -3,19 +3,16 @@ title: "Hi, I'm Janette Limon"
 ---
 
 
-::: {.columns}
+::::{.columns}
+
 ::: {.column width="30%"}
-![Janette headshot](images/headshot.jpg){width=100% style="border-radius: 50%;"}
-:::
-::: {.column width="70%"}
-Hi, I’m Janette Limon — ...
-:::
+![](images/headshot.jpg){width=100% style="border-radius: 50%;"}
 :::
 
-:::
 ::: {.column width="70%" style="padding-left: 3rem;"}
 Hi, I’m Janette Limon—a bilingual digital marketing professional with a passion for driving community impact through storytelling, data, and strategy. With experience spanning nonprofit outreach, government communications, and brand development, I specialize in connecting audiences with meaningful messages that move them to action.
 :::
+
 :::
 
 ## Personal Statement
